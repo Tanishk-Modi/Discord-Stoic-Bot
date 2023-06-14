@@ -2,7 +2,7 @@ import discord
 import responses
 
 # This is the unique identifier for the bot
-TOKEN = 'MTExODU1NjM0NDA3MzU4ODkwOA.GhOh6y.hhrc7UBm9p388axXMqy7_w6sit2SPTSp8jiaww'
+TOKEN = ''
 
 # Function that handles sending the user a message
 async def send_message(message, user_message, is_private):
@@ -19,7 +19,7 @@ async def send_message(message, user_message, is_private):
 
 def run_discord_bot():
 
-    TOKEN = 'MTExODU1NjM0NDA3MzU4ODkwOA.GhOh6y.hhrc7UBm9p388axXMqy7_w6sit2SPTSp8jiaww'
+    TOKEN = ''
 
     # This just allows/permits the bot to handle the messages
     intents = discord.Intents.default()
