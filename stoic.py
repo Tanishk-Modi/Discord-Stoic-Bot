@@ -1,6 +1,11 @@
 import discord
 import responses
 
+import stoic
+
+if __name__ == '__main__':
+    stoic.run_discord_bot()
+
 # This is the unique identifier for the bot
 TOKEN = ''
 
